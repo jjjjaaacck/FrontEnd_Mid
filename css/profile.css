@@ -22,11 +22,15 @@
 	right: 46px;
 }
 
-.main_img {
+.main_img_div {
 	width: 578px;
 	height: 434px;
-	background-color: white;
 	margin-left: 148px;
+	overflow: hidden;
+}
+
+.main_img {
+	max-height: 100%;
 }
 
 .img_introduction {
@@ -60,7 +64,8 @@
 .img_detail {
 	width: 474px;
 	height: 349px;
-	background-color: #FFFBF3;
+	/*background-color: #FFFBF3;*/
+	background-color: rgba(255, 255, 255, 0.5);
 	position: absolute;
 	top: 217px;
 	right: 147px;
@@ -85,6 +90,13 @@
 	vertical-align: bottom;
 	margin-left: -2px;
 	margin-bottom: 2px;
+	transition: .2s linear;
+}
+
+.like_icon:hover {
+	cursor: pointer;
+	/*transform: scale(1.2);*/
+	transform: rotate(15deg) scale(1.2);
 }
 
 .birth {
@@ -122,29 +134,26 @@
 }
 
 .more_img {
-	margin: 100px 0px;
-	padding-left: 148px;
-	padding-right: 148px;
-	width: 100%;
+	margin: 0px auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 984px;
 	height: 200px;
-	margin-right: -35px;
-	overflow-x: scroll;
-	overflow-y: hidden;
+	/*margin-right: -35px;*/
+	overflow: scroll;
+	white-space: nowrap;
+
+	/*overflow-y: hidden;*/
 }
 
-.more_img ul {
-	list-style: none;
-}
 
-.more_img li {
-	display: inline;
-}
 
 .more_img1 {
 	background-color: white;
 	width: 272px;
 	height: 200px;
 	margin-right: 35px;
+	display: inline;
 }
 
 .more_img2 {
@@ -152,6 +161,7 @@
 	width: 370px;
 	height: 200px;
 	margin-right: 35px;
+	display: inline;
 }
 
 

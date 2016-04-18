@@ -1,0 +1,88 @@
+.content {
+	margin-top: 110px;
+	margin-left: 149px;
+	/*margin-right: -21px;*/
+	margin-bottom: 74px;
+	width: 1004px;
+	height: 1303px;
+}
+
+.article {
+	float: left;
+	width: 230px;
+	height: 310px;
+	margin-right: 21px;
+	margin-bottom: 21px;
+	transition: .2s linear;
+}
+
+
+
+.article_img {
+	background-color: white;
+	width: 100%;
+	height: 220px;
+
+}
+
+.article_detail {
+	background-color: #FFFBF3;
+	width: 100%;
+	height: 90px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 15px;
+}
+
+.article_title {
+	font-size: 14px;
+	color: #A0A0A0;
+	float: left;
+	margin-bottom: 14px;
+}
+
+.article_author, .article_date {
+	font-size: 10px;
+	color: #C3C3C3;
+}
+
+.article_author {
+	float: left;
+}
+
+.article_date {
+	float: right;
+}
+
+.pages {
+	margin-left: 392px;
+	margin-bottom: 74px;
+	height: 30px;
+}
+
+.page_icon {
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-top: 2.5px;
+	margin-left: 8px;
+}
+
+.page {
+	width: 30px;
+	height: 30px;
+	float: left;
+	border:1px solid #E2E2E2;
+	border-radius: 5px;
+	color: black;
+	font-size: 20px;
+	font-family: "Helvetica";
+	text-align: center;
+	line-height: 30px;
+	margin-left: 8px;
+	text-decoration: none;
+}
+
+.page:hover {
+	border-color: #979797;
+}

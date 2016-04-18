@@ -43,7 +43,6 @@ header {
 }
 
 .login:hover {
-	cursor: pointer;
 	color: #FFA08E;
 }
 
@@ -78,10 +77,6 @@ header {
 	margin-left: 48px;
 	float: left;
 }
-.logo:hover {
-	cursor: pointer;
-	
-}
 
 .nav_header {
 	margin-right: 60px;
@@ -104,26 +99,25 @@ header {
 }
 
 .nav_header li:hover {
-	cursor: pointer;
 	color: #FFA08E;
 }
 
+
 footer {
 	width: 100%;
-	height: 73px;
+	height: 45px;
 	background-color: #F1F3E0;
-	padding-top: 24px;
+	padding-top: 14px;
 	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .copyrights {
-	height: 25px;
+	height: 17px;
 	margin-left: 152px;
-	font-size: 18px;
+	font-size: 12px;
 	font-family: "Lucida Grande";
 }
 
-.HanzipenSC_font {
-	font-family: "HanziPen SC";
-	font-weight: bold;
+.no_text_decoration {
+	text-decoration: none;
 }
