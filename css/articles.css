@@ -3,26 +3,37 @@
 	margin-left: 149px;
 	/*margin-right: -21px;*/
 	margin-bottom: 74px;
-	width: 1004px;
-	height: 1303px;
+	padding-left: 20px;
+	width: 980px;
+	height: 1345px;
+	background-color: #FFFDF9;
 }
 
 .article {
 	float: left;
-	width: 230px;
+	width: 220px;
 	height: 310px;
-	margin-right: 21px;
-	margin-bottom: 21px;
+	margin-right: 20px;
+	margin-top: 20px;
 	transition: .2s linear;
+	border: 1px solid #;
 }
 
-
-
-.article_img {
+.img {
 	background-color: white;
 	width: 100%;
 	height: 220px;
+	overflow: hidden;
+}
 
+.article_img {
+	width: 100%;
+	height: auto;
+	transition: .2s linear all;
+}
+
+.article_img:hover {
+	transform: scale(1.1);
 }
 
 .article_detail {
@@ -86,3 +97,4 @@
 .page:hover {
 	border-color: #979797;
 }
+
