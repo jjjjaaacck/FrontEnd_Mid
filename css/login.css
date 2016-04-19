@@ -1,0 +1,70 @@
+.main_profile{
+	width: 100%;
+	height: 550px;
+	margin-top:100px; 
+	margin-bottom: 100px;
+	position: relative;
+	float: left;
+}
+
+.background-img{
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+	width: 1280px;
+	height: 550px;
+	overflow: hidden;
+	background: url('../image/login.jpg');
+	opacity: 0.7;
+	position: relative;
+}
+
+.login-box{
+	position: absolute;
+	width: 200px;
+	top: 50%;
+	left: 50%;
+	font-size: 36px;
+	margin-top: -100px;
+	margin-left:-100px;
+}
+
+.filed{
+	width: 200px;
+	height: 30px;
+	margin-bottom: 30px;
+	float: left;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid white;
+	opacity: 0.8;
+	outline: none;
+	font-size: 20px;
+	text-align: center;
+}
+
+.filed:focus{
+	transition: 0.5s ;
+	border-bottom: 2px solid #ffbf80;
+}
+
+.login_button{
+	border: none;
+	margin-left: 70px;
+	text-decoration: none;
+	outline: none;
+	background: #ffb366;
+	color: white;
+	font-size: 16px;
+	width: 60px;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14);
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.login_button:hover{
+	transition: 0.5s;
+	color: #ffb366;
+	background: #e6e6e6;
+}

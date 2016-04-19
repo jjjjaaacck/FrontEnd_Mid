@@ -37,8 +37,9 @@ article {
 .article_paragraph {
 	font-size: 14px;
 	color: black;
-	width: 100%;
 	height: auto;
+	margin-left: 46.5px;
+	margin-right: 46.5px;
 	margin-bottom: 30px;
 	font-family: "YuGothic";
 }
