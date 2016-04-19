@@ -50,6 +50,9 @@
 	color: #A0A0A0;
 	float: left;
 	margin-bottom: 14px;
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
 }
 
 .article_title:hover {
