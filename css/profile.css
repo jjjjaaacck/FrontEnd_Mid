@@ -140,7 +140,7 @@
 	width: 984px;
 	height: 200px;
 	/*margin-right: -35px;*/
-	overflow: scroll;
+	/*overflow: scroll;*/
 	white-space: nowrap;
 
 	/*overflow-y: hidden;*/
