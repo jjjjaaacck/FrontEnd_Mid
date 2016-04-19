@@ -1,0 +1,57 @@
+article {
+	height: 1494px;
+}
+
+.content {
+	margin-top: 110px;
+	margin-left: 148px;
+	width: 995px;
+	height: 1358px;
+}
+
+.div1 {
+	width: 292px;
+}
+
+.div2 {
+	width: 328px;
+}
+
+.div3 {
+	width: 153px;
+}
+
+.div4 {
+	width: 181px;
+}
+
+.div5 {
+	width: 481px;
+}
+
+.div_same_property {
+	height: 218px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	float: left;
+	
+}
+
+.img {
+	width: 100%;
+	transition: .1s linear;
+}
+
+.img:hover {
+	transform: scale(1.05);
+}
+
+#gotop {
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+}
+
