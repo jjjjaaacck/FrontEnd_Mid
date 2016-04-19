@@ -52,6 +52,10 @@
 	margin-bottom: 14px;
 }
 
+.article_title:hover {
+	color: #419BF9;
+}
+
 .article_author, .article_date {
 	font-size: 10px;
 	color: #C3C3C3;
@@ -59,10 +63,16 @@
 
 .article_author {
 	float: left;
+	transition: .1s linear;
+}
+
+.article_author:hover {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .article_date {
 	float: right;
+	cursor: default;
 }
 
 .pages {

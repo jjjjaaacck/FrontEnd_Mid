@@ -1,0 +1,19 @@
+article {
+	margin-top: 110px;
+	margin-left: 150px;
+	width: 980px;
+	height: 1054px;
+}
+
+.title {
+	color: #A7BB45;
+	font-size: 36px;
+	width: 100%;
+	height: 100px;
+}
+
+.article_content {
+	width: 710px;
+	max-height: 1054px;
+}
+
