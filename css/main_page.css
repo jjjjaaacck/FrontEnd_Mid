@@ -40,7 +40,7 @@ article {
 
 .img {
 	width: 100%;
-	transition: .1s linear;
+	transition: .2s linear;
 }
 
 .img:hover {
