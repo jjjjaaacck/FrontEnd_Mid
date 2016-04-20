@@ -53,5 +53,10 @@ article {
     right: 30px;
     bottom: 50px;
     cursor: pointer;
+    transition: .1s linear;
+}
+
+#gotop:hover {
+	transform: scale(1.05);
 }
 

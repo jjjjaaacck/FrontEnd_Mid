@@ -17,7 +17,6 @@ body {
 
 .container {
 	width: 1280px;
-	/*height: 1652px;*/
 	margin: auto;
 }
 
@@ -68,8 +67,8 @@ header {
 	height: 23px;
 	width: 200px;
 	float: right;
-	z-index: 1;
 	border: 0;
+font-size: 18px;
 }
 
 .logo {
