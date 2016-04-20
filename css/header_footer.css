@@ -29,8 +29,8 @@ header {
 
 .right_block {
 	margin-right: 48px;
-	margin-top: 14px;
-	width: 240px;
+	margin-top: 33px;
+	width: 300px;
 	float: right;
 }
 
@@ -39,6 +39,7 @@ header {
 	font-size: 18px;
 	float: right;
 	transition: color .2s linear;
+	margin-top: 5px;
 }
 
 .login:hover {
@@ -47,9 +48,9 @@ header {
 
 .searchbar {
 	margin-top: 3px;
-	width: 100%;
+	width: 240px;
 	height: 30px;
-	float: right;
+	float: left;
 	background-color: white;
 	border-radius: 7px;
 }
