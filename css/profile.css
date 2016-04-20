@@ -10,16 +10,22 @@
  	top: 50%;
 }
 
-.previous_icon, .next_icon:hover {
-	cursor: pointer;
-}
-
 .previous_icon {
 	left: 46px;
+	transition: .1s linear;
 }
 
 .next_icon {
 	right: 46px;
+	transition: .1s linear;
+}
+
+.previous_icon:hover {
+	transform: translate(-10px, 0px);
+}
+
+.next_icon:hover {
+	transform: translate(10px, 0px);
 }
 
 .main_img_div {
